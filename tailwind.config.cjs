@@ -13,7 +13,7 @@ module.exports = {
         dimWhite: "#fff",
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        karla: ["Karla", "sans-serif"],
       },
     },
     screens: {
