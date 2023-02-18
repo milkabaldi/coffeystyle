@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import { Navbar } from './components'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <div>
         <h1>Hello Coffee Shop</h1>
+        <Navbar />
       </div>
     </div>
   )
