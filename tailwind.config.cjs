@@ -7,10 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: 'rgba(3, 3, 1, 0.9) ;',
-        secondary: "#FDDD3D",
-        dimBlack: "#1C1C1A",
-        dimWhite: "#fff",
+        primary: '#1D1F2E',
+        secondary: "#fff",
+        dimBrown: "#A25F4B",
+        dimGrey: "rgba(29, 31, 46, 0.7)",
       },
       fontFamily: {
         karla: ["Karla", "sans-serif"],

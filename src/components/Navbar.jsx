@@ -1,11 +1,13 @@
 import React from 'react'
+import images  from '../constants/images' 
 
 function Navbar() {
   return (
-    <nav>
-        <div>
-          <a href='/'>CoffeStyle.</a>
-        </div>
+    <header className=''>
+      <div>
+        <a href="/">CoffeStyle.</a>
+      </div>
+      <nav>
         <ul>
           <li>Home</li>
           <li>Our Products</li>
@@ -14,12 +16,14 @@ function Navbar() {
           <li>Contact</li>
           <li>Styleguide</li>
         </ul>
-        <div>
-          <img src="" alt="cart" />
-          <span>Cart</span>
-          <span>0</span>
-        </div>
-    </nav>
+      </nav>
+
+      <div>
+        <img src={images.Cart} alt="cart" />
+        <span>Cart</span>
+        <span>0</span>
+      </div>
+    </header>
   )
 }
 
