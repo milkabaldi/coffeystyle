@@ -1,29 +1,32 @@
 import React from 'react'
-import images  from '../constants/images' 
+import images from '../constants/images'
 
 function Navbar() {
   return (
-    <header className=''>
-      <div>
-        <a href="/">CoffeStyle.</a>
-      </div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Our Products</li>
-          <li>Blog</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Styleguide</li>
-        </ul>
-      </nav>
+    <>
+        <div>
+          <a className='text-3xl text-primary hover:text-primary' href="/">CoffeStyle.</a>
+        </div>
 
-      <div>
-        <img src={images.Cart} alt="cart" />
-        <span>Cart</span>
-        <span>0</span>
-      </div>
-    </header>
+        <ul className='flex gap-5
+        '>
+          <li><a className='text-base text-primary uppercase hover:text-dimBrown transition-colors ease-in-out duration-300 active:border-b-2 border-dimBrown' href='/'>Home</a></li>
+          <li><a className='text-base text-primary uppercase hover:text-dimBrown transition-colors ease-in-out duration-300 active:border-b-2 border-dimBrown' href='/OurProduct'>Our Products</a></li>
+          <li><a className='text-base text-primary uppercase hover:text-dimBrown transition-colors ease-in-out duration-300 active:border-b-2 border-dimBrown' href='/Blog'>Blog</a></li>
+          <li><a className='text-base text-primary uppercase hover:text-dimBrown transition-colors ease-in-out duration-300 active:border-b-2 border-dimBrown' href='/About'>About</a></li>
+          <li><a className='text-base text-primary uppercase hover:text-dimBrown transition-colors ease-in-out duration-300 active:border-b-2 border-dimBrown' href='/Contact'>Contact</a></li>
+          <li><a className='text-base text-primary uppercase hover:text-dimBrown transition-colors ease-in-out duration-300 active:border-b-2 border-dimBrown' href='/Styleguide'>Styleguide</a></li>
+        </ul>
+
+        <div>
+          <button type='button' className='flex gap-2 pointer'>
+            <img src={images.Cart} alt="cart" />
+            <span>Cart</span>
+            <span>0</span>
+          </button>
+
+        </div>
+    </>
   )
 }
 
