@@ -5,6 +5,7 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
       colors: {
         primary: '#1D1F2E',
@@ -12,10 +13,14 @@ module.exports = {
         dimBrown: "#A25F4B",
         dimGrey: "rgba(29, 31, 46, 0.7)",
       },
+      backgroundImage: {
+        'mugs': "url('/src/assets/bg-coffeeMugs.jpg')",
+      },
       fontFamily: {
         karla: ["Karla", "sans-serif"],
       },
     },
+
     screens: {
       xs: "480px",
       ss: "620px",
@@ -25,5 +30,6 @@ module.exports = {
       xl: "1700px",
     },
   },
+  
   plugins: [],
 };

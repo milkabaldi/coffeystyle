@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="bg-white w-full overflow-hidden">
       <header className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <nav className={`${styles.boxWidth} flex justify-between items-center flex-row py-4`}>
+        <nav className={`${styles.boxWidth} flex justify-between items-center flex-row py-6`}>
           <Navbar />
         </nav>
       </header>
