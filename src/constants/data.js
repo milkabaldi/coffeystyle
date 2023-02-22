@@ -8,7 +8,7 @@ const feautered = [
     },
     {
         mug: images.Golden,
-        title: 'Pink Premium Ceramic',
+        title: 'Golden Designers Mug',
         price: '$ 99.00 USD',
         markdown: '$60.00'
     },
