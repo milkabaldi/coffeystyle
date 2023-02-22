@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Navbar, } from './components'
-import { Mugs, } from './container'
+import { Mugs, Textx } from './container'
 import styles from './styles.js'
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
       </header>
       <main>
         <Mugs />
+        <Textx />
       </main>
     </div>
   )
