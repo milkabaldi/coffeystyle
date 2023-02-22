@@ -12,6 +12,7 @@ const feautered = [
         price: '$ 99.00 USD',
         markdown: '$60.00'
     },
+    
 ]
 
 
