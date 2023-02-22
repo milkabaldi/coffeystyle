@@ -12,6 +12,7 @@ module.exports = {
         secondary: "#fff",
         dimBrown: "#A25F4B",
         dimGrey: "rgba(29, 31, 46, 0.7)",
+        dimLightGrey: "#ECECED",
       },
       backgroundImage: {
         'mugs': "url('/src/assets/bg-coffeeMugs.jpg')",
