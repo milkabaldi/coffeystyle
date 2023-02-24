@@ -2,7 +2,9 @@ import React from 'react'
 
 const MoreMugs = () => {
   return (
-    <div>MoreMugs</div>
+    <section>
+        mugs
+    </section>
   )
 }
 
