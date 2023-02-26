@@ -14,7 +14,7 @@ const MoreMugs = () => {
             {data.moreMugs.map((item) => (
             <div className="">
                 <div className='mb-9 hover:scale-125 cursor-pointer duration-500 ease-out'>
-                <img className='' key={item.mug} src={item.mug} alt="Mug" />
+                <img className='' key={item.mug} src={item.mug} alt="Mug product" />
                 </div>
                   <span className='text-xl text-primary block text-center' key={item.title}>{item.title}</span>
                   <div className='flex flex-row justify-center items-center gap-2.5'>

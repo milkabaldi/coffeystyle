@@ -11,7 +11,9 @@ import CoffeeSix from '../assets/coffeeSix.jpg'
 import CoffeeSeven from '../assets/coffeeSeven.jpg'
 import CoffeeEight from '../assets/coffeeEight.jpg'
 import CoffeeNine from '../assets/coffeeNine.jpg'
-
+import MagazineOne from '../assets/MagazineOne.jpg'
+import MagazineTwo from '../assets/MagazineTwo.jpg'
+import MagazineThree from '../assets/MagazineThree.jpg'
 
 export default {
     Cart,
@@ -27,4 +29,7 @@ export default {
     CoffeeSeven,
     CoffeeEight,
     CoffeeNine,
+    MagazineOne,
+    MagazineTwo,
+    MagazineThree,
 }
