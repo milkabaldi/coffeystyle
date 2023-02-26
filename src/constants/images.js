@@ -14,6 +14,7 @@ import CoffeeNine from '../assets/coffeeNine.jpg'
 import MagazineOne from '../assets/MagazineOne.jpg'
 import MagazineTwo from '../assets/MagazineTwo.jpg'
 import MagazineThree from '../assets/MagazineThree.jpg'
+import bgPreFooter from '../assets/bgPreFooter.jpg'
 
 export default {
     Cart,
@@ -32,4 +33,5 @@ export default {
     MagazineOne,
     MagazineTwo,
     MagazineThree,
+    bgPreFooter,
 }
