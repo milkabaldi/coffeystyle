@@ -15,6 +15,10 @@ import MagazineOne from '../assets/MagazineOne.jpg'
 import MagazineTwo from '../assets/MagazineTwo.jpg'
 import MagazineThree from '../assets/MagazineThree.jpg'
 import bgPreFooter from '../assets/bgPreFooter.jpg'
+import blogOne from '../assets/blogOne.jpg'
+import blogTwo from '../assets/blogTwo.jpg'
+import blogThree from '../assets/blogThree.jpg'
+
 
 export default {
     Cart,
@@ -34,4 +38,7 @@ export default {
     MagazineTwo,
     MagazineThree,
     bgPreFooter,
+    blogOne,
+    blogTwo,
+    blogThree,
 }

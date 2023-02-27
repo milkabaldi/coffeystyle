@@ -67,8 +67,31 @@ const moreMugs = [
  
 ]
 
+const blog = [
+    {
+        image: images.blogOne,
+        title: "Health Check: why do I get a headache when I haven't had my coffee?",
+        miniDescription: 'It is a paradisematic country, in which roasted parts of sentences fly into your mouth.',
+        time: 'October 9, 2022'
+    },
+    {
+        image: images.blogTwo,
+        title: 'How long does a cup of coffee keep you awake?',
+        miniDescription: 'It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.',
+        time: 'October 19, 2022'
+    },
+    {
+        image: images.blogThree,
+        title: 'Recent research suggests that heavy coffee drinkers may reap health benefits.',
+        miniDescription: 'It is a paradisematic country, in which roasted parts of sentences fly into your mouth.',
+        time: 'November 9, 2022'
+    },
+]
+
+
 export default {
     feautered,
     moreMugs,
+    blog,
 }
 
