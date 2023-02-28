@@ -7,7 +7,7 @@ const Magazine = () => {
 <section className='pb-28 max-md:pb-28'>
         <div className={`${styles.boxWidth} ${styles.paddingX} ${styles.flexCenter} flex-col m-auto`}>
         <div className="mb-20 after:w-8 after:h-px after:bg-dimLightGrey after:block before:w-8 before:h-px before:bg-dimLightGrey before:block flex flex-row items-center justify-center gap-4 max-ss:mb-10">
-                <h2 className='text-primary uppercase text-base'>Buy 2 mugs and get a coffee magazine free</h2>
+                <h2 className='text-primary uppercase text-base text-center'>Buy 2 mugs and get a coffee magazine free</h2>
             </div>
             <div className='flex justify-between items-start flex-row gap-20 max-md:gap-10 max-md:flex-col max-md:items-center max-md:text-center'>
                 <div className='grid grid-rows-2 grid-flow-col gap-5'>
