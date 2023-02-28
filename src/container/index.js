@@ -1,10 +1,11 @@
-import Mugs       from "./Mugs.jsx";
-import Textx      from "./Textx.jsx";
-import Feautered  from "./Feautered.jsx";
-import MoreMugs   from "./MoreMugs.jsx";
-import Magazine   from "./Magazine.jsx";
-import PreFooter  from "./PreFooter.jsx";
-import Blog       from "./Blog.jsx";
+import Mugs         from "./Mugs.jsx";
+import Textx        from "./Textx.jsx";
+import Feautered    from "./Feautered.jsx";
+import MoreMugs     from "./MoreMugs.jsx";
+import Magazine     from "./Magazine.jsx";
+import PreFooter    from "./PreFooter.jsx";
+import Blog         from "./Blog.jsx";
+import EmailUpdates from "./EmailUpdates.jsx";
 
 export  {
     Mugs,
@@ -14,4 +15,6 @@ export  {
     Magazine,
     PreFooter,
     Blog,
+    EmailUpdates,
+
 }

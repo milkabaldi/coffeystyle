@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Navbar, } from './components'
-import { Mugs, Textx, Feautered, MoreMugs, Magazine, PreFooter, Blog } from './container'
+import { Mugs, Textx, Feautered, MoreMugs, Magazine, PreFooter, Blog, EmailUpdates } from './container'
 import styles from './styles.js'
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
         <Magazine />
         <PreFooter />
         <Blog />
+        <EmailUpdates />
       </main>
     </div>
   )
