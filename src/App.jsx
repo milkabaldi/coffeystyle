@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, } from './components'
+import { Navbar, Footer } from './components'
 import { Mugs, Textx, Feautered, MoreMugs, Magazine, PreFooter, Blog, EmailUpdates } from './container'
 import styles from './styles.js'
 
@@ -23,6 +23,7 @@ function App() {
         <Blog />
         <EmailUpdates />
       </main>
+      <Footer />
     </div>
   )
 }
