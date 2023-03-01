@@ -15,10 +15,10 @@ const EmailUpdates = () => {
         <span className="block text-4xl text-secondary mb-7">
           Coffee Updates
         </span>
-        <form className="flex flex-row gap-4 w-full items-center justify-center" action="" method="get">
-          <div className='max-w-xs'>
+        <form className="flex flex-row gap-4  " action="" method="get">
+          <div className=''>
           <input
-            className="p-5 w-full bg-primary border-secondary border-2 text-secondary"
+            className="p-5  bg-primary border-secondary border-2 text-secondary"
             placeholder="customer@coffeestyle.io"
             type="email"
             name="email"
