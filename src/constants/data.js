@@ -91,10 +91,53 @@ const blog = [
     },
 ]
 
+const footerLinkOne = [
+    {
+       link: '/menu',
+       name: 'Home',
+    },
+    {
+       link: '/menu',
+       name: 'Our Products',
+    },
+    {
+       link: '/menu',
+       name: 'About',
+    },
+    {
+       link: '/menu',
+       name: 'Contact',
+    },
+    {
+       link: '/menu',
+       name: 'Styleguide',
+    },
+]
+
+const footerLinkTwo = [
+    {
+        link: '/social',
+        name: 'Facebook',
+     },
+    {
+        link: '/social',
+        name: 'Instagram',
+     },
+    {
+        link: '/social',
+        name: 'Pinterest',
+     },
+    {
+        link: '/social',
+        name: 'Twitter',
+     },
+]
 
 export default {
     feautered,
     moreMugs,
     blog,
+    footerLinkOne,
+    footerLinkTwo,
 }
 
